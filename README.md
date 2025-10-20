@@ -20,7 +20,7 @@ Transform your health journey with AI-generated, personalized meal plans and wor
 ## 📁 Project Structure
 
 ```
-health-fitness-agent/
+health-fitness-planner/
 │
 ├── 📄 health_agent.py          # Main Streamlit application
 ├── 📄 requirements.txt         # Python dependencies
