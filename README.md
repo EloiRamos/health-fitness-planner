@@ -22,19 +22,15 @@ Transform your health journey with AI-generated, personalized meal plans and wor
 ```
 health-fitness-planner/
 │
-├── 📄 health_agent.py          # Main Streamlit application
-├── 📄 requirements.txt         # Python dependencies
+├── 📄 health_agent.py         # Main Streamlit application
+├── 📄 requirements.txt        # Python dependencies
 ├── 📄 README.md               # Project documentation
 ├── 📄 LICENSE                 # MIT license file
-├── 📁 .health-agent/          # Python virtual environment
-│   ├── 📄 .gitignore
-│   ├── 📄 .lock
-│   ├── 📄 CACHEDIR.TAG
-│   └── 📄 pyvenv.cfg
-├── 📁 reports/                # Generated plan exports
-│   ├── 📄 dietary_plan_*.md   # Individual dietary plans
-│   ├── 📄 fitness_plan_*.md   # Individual fitness plans
-│   └── 📄 combined_plan_*.md   # Complete health plans
+├── 📄 .gitignore              # Git ignore rules
+├── 📁 reports/                # Generated plan exports (created automatically)
+│   ├── 📄 dietary_plan_*.md   # Individual dietary plan
+│   ├── 📄 fitness_plan_*.md   # Individual fitness plan
+│   └── 📄 combined_plan_*.md  # Complete health plan
 └── 📁 screenshots/            # Application interface screenshots
     └── 📄 app-main-interface.png
 ```
@@ -158,7 +154,7 @@ Here's an excerpt from a typical combined health plan:
 **Generated on:** 2025-10-20 12:03:47
 
 ## User Profile
-**Age:** 17 | **Weight:** 70.0kg | **Height:** 170.0cm
+**Age:** 17 | **Weight:** 70.0kg | **Height:** 180.0cm
 **Activity Level:** Very Active | **Dietary Preferences:** Keto
 **Fitness Goals:** Strength Training
 
